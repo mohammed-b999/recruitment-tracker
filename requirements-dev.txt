@@ -1,0 +1,6 @@
+# Development-only dependencies (testing and security scanning).
+-r requirements.txt
+pytest==9.2.0            # test runner
+pytest-django==4.14.0    # Django integration for pytest
+bandit==1.9.4            # static security scan
+pip-audit==2.10.1        # dependency vulnerability scan

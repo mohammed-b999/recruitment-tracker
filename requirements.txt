@@ -1,0 +1,5 @@
+# Runtime dependencies (installed on the server).
+# Pin exact versions; justify every new dependency in CLAUDE.md.
+Django==5.2.19           # web framework (LTS, security support until April 2028)
+django-environ==0.14.0   # read secrets/config from .env
+argon2-cffi==25.1.0      # Argon2 password hashing
